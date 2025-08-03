@@ -11,6 +11,8 @@ public class HelloController {
     String hello() {
         return "Hello World!";
     }
-
+    String hiName(String name){
+        return "Hi " + name + "!";
+    }
    
 }
